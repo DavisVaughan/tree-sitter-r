@@ -297,7 +297,7 @@
     Output
       S-Expression
       (call [(1, 0), (6, 1)]
-        function: (identifier [(1, 0), (1, 6)])
+        function: (switch [(1, 0), (1, 6)])
         arguments: (arguments [(1, 6), (6, 1)]
           "(" [(1, 6), (1, 7)]
           argument: (argument [(1, 7), (1, 10)]

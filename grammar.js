@@ -522,7 +522,8 @@ module.exports = grammar({
     // In other words, no keywords used in special control-flow constructions.
     return: $ => "return",
     next: $ => "next",
-    break: $ => "break", 
+    break: $ => "break",
+    switch: $ => "switch",
     true: $ => "TRUE",
     false: $ => "FALSE",
     null: $ => "NULL",
@@ -572,6 +573,7 @@ module.exports = grammar({
       $.return,
       $.next,
       $.break,
+      $.switch,
       $.true,
       $.false,
       $.null,

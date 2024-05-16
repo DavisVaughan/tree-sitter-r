@@ -2494,6 +2494,10 @@
       "type": "STRING",
       "value": "break"
     },
+    "switch": {
+      "type": "STRING",
+      "value": "switch"
+    },
     "true": {
       "type": "STRING",
       "value": "TRUE"
@@ -2637,6 +2641,10 @@
         {
           "type": "SYMBOL",
           "name": "break"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "switch"
         },
         {
           "type": "SYMBOL",

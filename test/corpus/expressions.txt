@@ -1057,7 +1057,7 @@ switch(foo,
 
 (program
   (call
-    function: (identifier)
+    function: (switch)
     arguments: (arguments
       argument: (argument
         value: (identifier))

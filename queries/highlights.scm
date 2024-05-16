@@ -40,7 +40,7 @@
 
 ;; Keywords
 [
-  (return) (next) (break) (null)
+  (return) (next) (break) (switch) (null)
 ] @keyword
 
 [
